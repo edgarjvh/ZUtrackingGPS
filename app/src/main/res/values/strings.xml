@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name" translatable="false">ZUtracking GPS</string>
+    <string name="hint_correo_electronico">Correo Electrónico</string>
+    <string name="hint_contraseña">Contraseña</string>
+    <string name="text_iniciar_sesion">Iniciar Sesión</string>
+    <string name="text_crear_cuenta">Crear Cuenta</string>
+    <string name="content_ver_demo">Ver Demo</string>
+    <string name="web_site" translatable="false">www.zutrackingps.com.ve</string>
+    <string name="title_activity_frm__mapa">Principal</string>
+    <string name="spanish">Español</string>
+    <string name="english">Inglés</string>
+    <string name="formulario_de_registro">Apertura de Cuenta</string>
+    <string name="Nombres">Nombres</string>
+    <string name="Apellidos">Apellidos</string>
+    <string name="Dirección">Direccion</string>
+    <string name="Provincia">Provincia</string>
+    <string name="Telefono1">Teléfono 1</string>
+    <string name="Telefono2">Teléfono 2</string>
+    <string name="EnviarDatos">Enviar Datos</string>
+    <string name="debe_ingresar_correo">Debe ingresar su correo electrónico</string>
+    <string name="debe_ingresar_clave">Debe ingresar su contraseña</string>
+    <string name="correo_invalido">Correo electrónico inválido</string>
+    <string name="clave_invalida">La contraseña debe tener entre 8 y 15 caracteres</string>
+    <string name="no_conectado_internet">No está conectado a Internet</string>
+    <string name="confirmar_registro">Confirmar Registro</string>
+    <string name="mensaje_confirmar_registro">Por favor ingrese el código de validación que le fue enviado a su correo electrónico para activar su cuenta&#8230;\n\n El código de validación debe contener 8 caracteres y es sensible a mayúsculas y minúsculas</string>
+    <string name="codigo_de_validacion">Código de Validación</string>
+    <string name="enviar_codigo">Enviar Código</string>
+    <string name="solicitar_nuevo_codigo"><u>Solicitar un nuevo código</u></string>
+    <string name="datos_personales">Datos Personales</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="datos_acceso">Datos de Acceso</string>
+    <string name="confirmar_clave">Confirmar Contraseña</string>
+    <string name="debe_ingresar_nombre">Debe ingresar su nombre</string>
+    <string name="debe_ingresar_apellido">Debe ingresar su apellido</string>
+    <string name="debe_ingresar_direccion">Debe ingresar su dirección</string>
+    <string name="debe_ingresar_provincia">Debe ingresar la provincia ó estado</string>
+    <string name="debe_ingresar_telefono1">Debe ingresar su teléfono principal</string>
+    <string name="seleccione_pais">Seleccione su País</string>
+    <string name="debe_seleccionar_pais">Debe seleccionar su país</string>
+
+
+</resources>

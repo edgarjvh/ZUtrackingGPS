@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="content_ver_demo">Watch Demo</string>
+    <string name="english">English</string>
+    <string name="hint_contraseña">Password</string>
+    <string name="hint_correo_electronico">E-mail</string>
+    <string name="spanish">Spanish</string>
+    <string name="text_crear_cuenta">Create Account</string>
+    <string name="text_iniciar_sesion">Log In</string>
+    <string name="title_activity_frm__mapa">Main</string>
+    <string name="web_site"></string>
+</resources>

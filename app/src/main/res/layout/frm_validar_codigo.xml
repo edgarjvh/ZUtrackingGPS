@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frm_RegistroDatosPersonales"
+    android:background="@drawable/fondo_amarillo">
+
+    <ve.com.zuprevencion.zutrackinggps.AutoResizeTextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/lblTituloConfirmarRegistro"
+        android:text="@string/confirmar_registro"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="#0C8DA1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblMensajeConfirmarRegistro"
+        android:text="@string/mensaje_confirmar_registro"
+        android:layout_below="@+id/lblTituloConfirmarRegistro"
+        android:layout_margin="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblMensajeConfirmarRegistro"
+        android:padding="10dp"
+        android:id="@+id/inputTxtCodigoValidacion">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/txtCodigoValidacion"
+            android:hint="@string/codigo_de_validacion"
+            android:textColor="#001eff"
+            android:maxLength="8"
+            android:gravity="center_horizontal|center_vertical"
+            android:background="@drawable/needed_edittext_background"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblSolicitarNuevoCodigo"
+        android:text="@string/solicitar_nuevo_codigo"
+        android:layout_below="@+id/inputTxtCodigoValidacion"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#0033ff"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <ve.com.zuprevencion.zutrackinggps.AutoResizeTextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/btnEnviarCodigo"
+        android:text="@string/enviar_codigo"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="18sp"
+        android:background="@drawable/button_background"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"/>
+
+</RelativeLayout>
